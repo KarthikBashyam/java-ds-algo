@@ -1,4 +1,4 @@
-package com.practice.bst;
+package com.practice.trees;
 
 public class BinarySearchTree {
 
