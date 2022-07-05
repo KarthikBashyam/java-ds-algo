@@ -13,8 +13,6 @@ public class MergeIntervalsUnsorted {
 		input.add(new Interval(5, 9));
 		List<Interval> mergeIntervals = mergeIntervals(input);
 		System.out.println(mergeIntervals);
-
-		
 	}
 
 	private static List<Interval> mergeIntervals(ArrayList<Interval> input) {
