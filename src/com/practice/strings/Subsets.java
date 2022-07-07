@@ -25,5 +25,6 @@ public class Subsets {
 		
 		System.out.println(subsets);
 
-	}
+	}	
 }
+

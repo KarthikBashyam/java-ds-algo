@@ -1,0 +1,15 @@
+
+final String normal = "MetLysGlyHisGlnGlnCys";
+final String mutated ="MetLysGlyHisGlaGlnGlnCys";
+final String pname = "p.His4_Gln5insGla";
+
+What is p name?
+Given an amino acid sequence p name describes a mutation
+Expanding the format p.Xyzn_AbcminsDef
+p. => constant prefix indicating its a pname
+Xyzn => amino acid at position n, where n is a number
+Abcm => amino acid at position m, where m is a number
+ins => constant meaning insert (there are other constants but lets focus on insertion)
+Def => amino acid(s) to insert
+
+q. method that takes normal and mutated and derives pname
