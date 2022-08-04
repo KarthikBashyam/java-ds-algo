@@ -13,10 +13,7 @@ public class BinaryTree {
 			root = new BinaryTreeNode(element, null, null);
 			return;
 		}
-
 		Queue<BinaryTreeNode> queue = new LinkedList<>();
-		queue.add(root);
-
 		while (!queue.isEmpty()) {
 			BinaryTreeNode node = queue.poll();
 

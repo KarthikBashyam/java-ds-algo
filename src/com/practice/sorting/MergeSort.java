@@ -1,5 +1,8 @@
 package com.practice.sorting;
 
+import java.util.Arrays;
+import java.util.stream.Stream;
+
 public class MergeSort {
 
 	public static void main(String[] args) {
@@ -8,10 +11,7 @@ public class MergeSort {
 
 		mergeSort(arr);
 
-		for (int e : arr) {
-			System.out.println(e);
-		}
-
+		Arrays.stream(arr).forEach(System.out::println);
 	}
 
 	private static void mergeSort(int[] arr) {
