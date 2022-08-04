@@ -1,4 +1,4 @@
-package com.practce.stacks;
+package com.practice.stacks;
 
 public class BalancedParantheses {
 	
